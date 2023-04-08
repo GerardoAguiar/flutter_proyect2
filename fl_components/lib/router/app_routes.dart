@@ -15,7 +15,9 @@ class AppRoutes{
         MenuOption(route: 'card', icon: Icons.credit_card, name: 'Card Screen', screen: const CardScreen()),
         MenuOption(route: 'avatar', icon: Icons.supervised_user_circle, name: 'Avatar Screen', screen: const AvatarScreen()),
         MenuOption(route: 'animated', icon: Icons.animation, name: 'Animated Screen', screen: const AnimatedScreen()),
-        MenuOption(route: 'inputs', icon: Icons.input_rounded, name: 'Inputs Screen', screen: const InputsScreen())
+        MenuOption(route: 'inputs', icon: Icons.input_rounded, name: 'Inputs Screen', screen: const InputsScreen()),
+        MenuOption(route: 'sliders', icon: Icons.slideshow_rounded, name: 'Slider Screen', screen: const SliderScreen()),
+        MenuOption(route: 'listViewBuilder', icon: Icons.build_rounded, name: 'Infinite Scroll & Pull to refresh', screen: const ListViewBuilderScreen())
 
 
     ];
